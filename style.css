@@ -1,0 +1,263 @@
+.navbar {
+    transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+section.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.splash {
+    height: 100vh;
+    background-image: url(img/splash/splash1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.splash h1 {
+    font-size: 75px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+}
+
+.splash p {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+    padding: 3%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.inverse h2,
+.inverse h3 {
+    color: white;
+}
+
+hr {
+    width: 50px;
+    border-color: #ffffff;
+    border-width: 6px;
+    margin-top: 3%;
+}
+
+.inverse hr {
+    border-color: white;
+
+}
+
+p {
+    text-align: center;
+    color: #999;
+}
+
+.inverse p {
+    color: #ccc;
+}
+
+button {
+    background-color: #999;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-color: #999;
+    color: white;
+    padding: 10px 30px;
+}
+
+.inverse button {
+    background-color: white;
+    color: black;
+}
+
+#story {
+    padding-top: 50px; 
+    margin-top: -50px;
+    padding-bottom: 100px;
+}
+
+.story-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+#story h4,
+#story p {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+}
+
+.story-item {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#story .timeline-image img{
+    display: flex;
+    justify-content: center;
+}
+
+#story .section-heading {
+    padding-top: 5%;
+}
+
+#story .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#family {
+    padding-top: 50px; 
+    margin-top: -50px;
+    padding-bottom: 100px;
+}
+
+#family .section-heading {
+    padding-top: 2.5%;
+}
+
+.family-member {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ 
+.family-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #000000;
+}
+
+.family-member h4 {
+    margin-top: 3%;
+    margin-bottom: 0;
+    text-transform: none;
+    color: #fff;
+}
+
+.family-member p {
+    margin-top: 3%;
+}
+
+#adventures {
+    padding-top: 50px; 
+    margin-top: -50px;
+}
+
+#adventures .container-fluid {
+    padding: 0;
+}
+
+#adventures .box {
+    position: relative;
+}
+
+#adventures .box > img {
+    width: 100%;
+}
+
+#adventures .box > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#adventures .box:hover > div {
+    opacity: 1;
+    text-shadow: 1px 1px 2px black;
+}
+
+#aspirations {
+    text-align: center;
+}
+
+#aspirations .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#aspirations hr {
+    width: 50px;
+    border-color: #999;
+    border-width: 6px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#aspirations i {
+    color: #999;
+    font-size: 48px;
+    padding-top: 5%;
+}
+
+#aspirations h3 {
+    padding-top: 5%;
+}
+
+#aspirations p {
+    color: #999;
+    padding-top: 5%;
+}
+
+.seriously {
+    padding: 2%;
+    background-color: black;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact i {
+    font-size: 48px;
+    color: #fff;
+    padding: 5%;
+}
+
+#contact hr{
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
